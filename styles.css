@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: powderblue;
+    margin: 10px;
+    padding: 40px;
+    min-height: 100vh;
+    color: #2d3748;
+}
+
+/* Main Container */
+#freelancer-list, #average-price {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: steelblue;
+    border-radius: 50px;
+    border-top: 4px solid #1a365d;
+    border-bottom: 4px solid #1a365d;
+    border-left: 4px solid #1a365d;
+    border-right: 4px solid #1a365d;
+}
+
+/* Headings */
+h2, h3 {
+    margin-top: 10px;
+    margin-left:20px;
+    color: #1a365d;
+    border-bottom: 5px solid pink;
+    padding-bottom: 10px;
+}
+
+/* Freelancer Listing */
+ul {
+    list-style:square;
+    padding: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* Individual Freelancer Entries */
+li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: powderblue;
+    border-radius: 6px;
+    border-left: 4px solid pink;
+    border-top: 4px solid pink;
+    border-bottom: 4px solid pink;
+    border-right: 4px solid pink;
+    color: #1a365d;
+}
+
+li:hover {
+    transform: translateX(30px);
+}
+
+/* Average Price Container */
+#average-price {
+    background-color: pink;
+    border-left: 4px solid #1a365d;
+    border-top: 4px solid #1a365d;
+    border-bottom: 4px solid #1a365d;
+    border-right: 4px solid #1a365d;
+}
+
+/* Average Price Number */
+#average {
+    font-weight: bold;
+    color: #1a365d;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #freelancer-list, #average-price {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    li {
+        padding: 10px;
+    }
+}
